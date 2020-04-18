@@ -1,0 +1,219 @@
+.modal-wrap, .modal-wrap-del {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.479);
+}
+
+.modal {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.479);
+  border: 1px solid;
+  margin: 200px auto;
+  padding: 20px;
+}
+
+.mt {
+  height: 40px;
+  border-bottom: 1px solid;
+}
+
+.mc {
+  margin: 20px;
+}
+
+.modal-wrap button, .modal-wrap-del button {
+  position: absolute;
+  right: 17px;
+  bottom: 1px;
+  color: #fff;
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+  font-size: 40px;
+  border-style: none;
+}
+
+.modal-wrap button:hover, .modal-wrap-del button:hover {
+  color: #fed057;
+  cursor: pointer;
+}
+
+.modal-wrap, .modal-wrap-del {
+  display: none;
+}
+
+.booking {
+  position: relative;
+  margin-top: 12px;
+  text-align: right;
+  outline: none;
+  border: 0;
+}
+
+.wrap {
+  width: 100%;
+  margin-top: 100px;
+  letter-spacing: 3px;
+  backgorund
+}
+
+.input-group-text {
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: 1px;
+  font-size: 24px;
+  float: left;
+  margin-right: 10px;
+}
+
+.today {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.form-control {
+  margin: 7px;
+}
+
+.schedule_content {
+  width: 100%;
+  height: 185px;
+  margin-top: 20px;
+}
+
+.save {
+  font-size: 35px;
+  margin-top: 15px;
+  margin-left: 480px;
+  background-color: transparent;
+  color: #fff;
+  border-style: none;
+  font-weight: bold;
+  outline: none;
+  border: 0;
+}
+
+button {
+  outline: none;
+  border: 0;
+}
+
+.save:hover {
+  color: #fed057;
+  cursor: pointer;
+}
+
+#boobtn {
+  background-color: transparent;
+  color: #fff;
+  border-style: none;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  outline: none;
+  border: 0;
+}
+
+#boobtn>i {
+  margin-left: 5px;
+}
+
+#boobtn:hover {
+  color: #fed057;
+  cursor: pointer;
+}
+
+#del {
+  background-color: transparent;
+  color: #fff;
+  border-style: none;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  outline: none;
+  border: 0;
+}
+
+#del:hover {
+  color: #fed057;
+  cursor: pointer;
+}
+
+#del>i {
+  margin-left: 5px;
+}
+
+.del {
+  font-size: 35px;
+  margin-top: 10px;
+  margin-left: 480px;
+  background-color: transparent;
+  color: #fff;
+  border-style: none;
+  font-weight: bold;
+  outline: none;
+  border: 0;
+}
+
+.del:hover {
+  color: #fed057;
+  cursor: pointer;
+}
+
+.boxes {
+  margin: auto;
+  padding: 50px;
+  background: transparent;
+  height: 250px;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+/*Checkboxes styles*/
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]+label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: rgb(221, 221, 221);
+  cursor: pointer;
+}
+
+input[type="checkbox"]+label:last-child {
+  margin-bottom: 0;
+}
+
+input[type="checkbox"]+label:before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fed057;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .6;
+  -webkit-transition: all .12s, border-color .08s;
+  transition: all .12s, border-color .08s;
+}
+
+input[type="checkbox"]:checked+label:before {
+  width: 10px;
+  top: -5px;
+  left: 5px;
+  border-radius: 0;
+  opacity: 1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(45deg);
+}

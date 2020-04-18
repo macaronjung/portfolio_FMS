@@ -1,0 +1,209 @@
+@import
+  url('https://fonts.googleapis.com/css?family=Jua|Do+Hyeon|Khand|Noto+Sans+KR&display=swap')
+  ;
+
+.info {
+  font-family: 'Khand';
+  font-family: 'Jua', sans-serif;
+}
+
+.ProductHeader h2, .PurchaseButton_StyledButton {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* buy CSS */
+.i {
+  width: 100%;
+}
+
+.product {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 700px;
+  top: 60px;
+}
+
+.info {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.info div {
+  padding: 4px;
+}
+
+.info {
+  position: relative;
+  top: -10%;
+  padding-right: 20%;
+  left: 8%;
+}
+
+.productImg {
+  width: 60%;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.ProductHeader_Label-az1cmu {
+  background-color: #FED057;
+  color: rgb(82, 82, 82);
+  position: relative;
+  margin: 1px;
+  padding: 2px;
+  border-radius: 6%;
+  top: -25px;
+}
+
+.ProductHeader {
+  margin-bottom: -10x;
+}
+
+.ProductHeader_Title {
+  margin-bottom: 30px;
+  margin-top: 100px;
+  font-size: 35px;
+}
+
+.productImg img, .productImg h2 {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bobox {
+  position: relative;
+  width: 60%;
+  height: 90%;
+  left: 18%;
+  top: -30px;
+}
+
+.bobox img {
+  width: 80%;
+  height: 80%;
+  padding-top: 10%;
+}
+
+.summary {
+  height: 100px;
+}
+
+.SummaryOptionItem {
+  width: 45%;
+}
+
+.SummaryOptionItem div {
+  margin-top: 0px;
+  font-size: 18px;
+}
+
+.SummaryOptionItem p {
+  font-size: 14px;
+}
+
+.SummaryOptions_Container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.PurchaseButton_StyledButton {
+  margin-top: 40px;
+}
+
+.PurchaseButton_Container button {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  padding: 16px;
+  width: 100%;
+  color: #fff;
+  background-color: #26394E;
+  cursor: pointer;
+}
+
+.PurchaseButton_Container button:hover {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  padding: 16px;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(40, 56, 75, 0.822);
+  cursor: pointer;
+}
+
+.sign-up button {
+  position: relative;
+  top: -7px;
+  font-weight: 700;
+  background-color: #FED057;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sign-up button:hover {
+  background-color: #fff;
+  color: #FED057;
+}
+
+.TotalAmount_PriceText {
+  margin-top: -20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  padding: 16px;
+  width: 100%;
+  color: #FED057;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+button:active {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+button.unit {
+  border-radius: 8px;
+  line-height: 0;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+  font-size: 19.2px;
+}
+
+button.unit {
+  margin-right: 0;
+}
+
+.nanana {
+  height: 80px;
+}
+
+.box {
+  color: #fff;
+}

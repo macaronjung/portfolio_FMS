@@ -1,0 +1,287 @@
+/* 게시판 설정(게시판 초기화면) */
+.mainbox .sec1 .board, .mainbox .board_sec1 .board {
+  width: 100%;
+  background-color: #fed057;
+  /* border: 4px ridge #26393e; */
+  border-radius: 6px;
+}
+
+.mainbox .sec1 .board tr, .mainbox .board_sec1 .board tr {
+  width: 100%;
+  height: 100%;
+}
+
+.mainbox .sec1 .board tr .board_toptext, .mainbox .board_sec1 .board tr .board_toptext
+  {
+  width: 100%;
+  height: 100%;
+  color: #26393e;
+}
+
+.mainbox .sec1 .boardContent tr .boardTitle, .mainbox .board_sec1 .boardContent tr .boardTitle
+  {
+  /* border: 1px ridge #26393e;
+  border-radius: 6px; */
+  
+}
+/* a 영역 전체에 링크 걸기 */
+.mainbox .sec1 .boardContent tr a, .mainbox .board_sec1 .boardContent tr a
+  {
+  display: block;
+}
+
+/* style.css 에 걸린 a 색 변경 제거 */
+.mainbox .sec1 .boardContent tr .boardTitle a:hover, .mainbox .board_sec1 .boardContent tr .boardTitle a:hover
+  {
+  color: #fed057;
+}
+
+.mainbox .sec1 .board tr .board_toptext, .mainbox .sec1 .boardContent tr .board_bottomtext,
+  .mainbox .board_sec1 .board tr .board_toptext, .mainbox .board_sec1 .boardContent tr .board_bottomtext
+  {
+  text-align: center;
+}
+/* boardNum, boardMaker 위치 일괄 수정 */
+/* .mainbox .sec1 .board tr > .boardNum,
+.mainbox .sec1 .board tr > .boardMaker {
+	margin-left: 2px;
+} */
+
+/* pageCount 배치 수정 */
+.boardlist .pageCount {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+/* 버튼 꾸미기 */
+.boardlist .board_button, .boardlist .pageCount .board_button {
+  border: 2px solid #26393e;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fed057;
+  padding: 5px;
+  display: block;
+  border-radius: 5px;
+  margin-right: -4px;
+  cursor: pointer;
+}
+
+.boardlist .board_button, .boardlist .pageCount .board_button:hover {
+  color: white;
+  background-color: #26393e;
+}
+
+/* boardlist 정렬 및 꾸미기 */
+.boardlist .pageCount a {
+  padding: 5px 0 0 0;
+  margin: 0;
+  display: block;
+  width: 3%;
+  text-align: center;
+}
+
+.board_list {
+  font-size: 20px;
+}
+
+/* 게시판 view 설정 */
+.mainbox .sec1 .board_view, .mainbox .board_sec1 .board_view {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.mainbox .sec1 .board_view .boardContent, .mainbox .board_sec1 .board_view .boardContent
+  {
+  width: 100%;
+  background-color: #fed057;
+  border: 4px ridge #26393e;
+  border-radius: 6px;
+  color: #26393e;
+}
+
+.mainbox .sec1 .board_view .boardContent2, .mainbox .board_sec1 .board_view .boardContent2
+  {
+  width: 100%;
+  color: white;
+}
+/* 제목 밑단 (2번째 줄) 꾸미기 */
+.mainbox .sec1 .board_view .boardContent tr .board_viewtext, .mainbox .sec1 .board_view .boardContent2 tr .board_viewtext,
+  .mainbox .board_sec1 .board_view .boardContent tr .board_viewtext,
+  .mainbox .sec1 .board_view .boardContent2 tr .board_viewtext {
+  text-align: center;
+}
+/* board_viewContent 꾸미기 */
+.mainbox .sec1 .board_view .board_viewContent {
+  
+}
+
+/* 버튼 정렬 */
+.board_viewButton {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+/* 버튼 꾸미기 */
+button.board_list.board_button, button.board_update.board_button, form.delete.board_delete.board_button,
+  button.board_write.board_button {
+  border: 2px solid #26393e;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fed057;
+  padding: 5px 10px;
+  display: block;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 18px
+}
+
+button.board_writebutton2 {
+  display: inline-block;
+  width: 80px;
+  border: 2px ridge #fed057;
+  border-radius: 6px;
+  color: white;
+  margin: 0 20px 5px 10px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 18;
+}
+
+button.board_list.board_updatebutton {
+  display: inline-block;
+  width: 100px;
+  border: 2px ridge #fed057;
+  border-radius: 6px;
+  color: white;
+  margin: 0 20px 5px 10px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+form.delete.board_delete.board_button button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fed057;
+  display: block;
+  margin-top: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 18px
+}
+
+button.board_list.board_button:hover, button.board_update.board_button:hover,
+  form.delete.board_delete.board_button:hover, button.board_write.board_button:hover
+  {
+  color: white;
+  background-color: #26393e;
+}
+
+/* 게시판 write 설정 */
+.board_write>th.board_writeTitle {
+  padding: 10px;
+  background-color: #fed057;
+  border: 4px ridge #26393e;
+  border-radius: 6px;
+}
+
+/* board_update 꾸미기 / 다른 게시판 이상없음 */
+th {
+  display: inline-block;
+  width: 60px;
+  /* border: 2px ridge #fed057; */
+  border-radius: 6px;
+  color: white;
+  margin: 0 20px 5px 10px;
+  font-size: 20px;
+}
+
+/* board_updateButton 버튼 정렬 */
+.board_updateButton {
+  width: 10%;
+  /* display: inline-grid; */
+  /* margin-top: -2%; */
+  /* display: flex;
+	justify-content: space-between;
+	margin-top: 2%; */
+}
+
+/* board_updateButton 꾸미기 */
+button.board_list.board_updatebutton {
+  border: 2px solid #26393e;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fed057;
+  padding: 5px 10px;
+  display: block;
+  border-radius: 5px;
+  /* margin-top: 5px; */
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+button.board_list.board_updatebutton:hover {
+  color: white;
+  background-color: #26393e;
+}
+
+/* board_view sec1 과 메인사진 간격 */
+.board_sec1 {
+  margin-top: 10%;
+}
+
+.board_sec1>h3, .boardUpdate_sec1>h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FED057;
+  margin-bottom: 30px;
+  position: relative;
+  text-transform: unset;
+}
+
+.board_update {
+  margin-left: -5%;
+}
+
+.board_sec1>h3:before, .boardUpdate_sec1>h3:before {
+  content: '';
+  display: block;
+  position: relative;
+  left: 125px;
+  top: 1.1rem;
+  width: 89%;
+  border-top: 1px solid #d7d7d7;
+}
+/* board_view sec1 과 메인사진 간격 */
+.sec1.sec {
+  margin-top: -1%;
+  margin-left: 0;
+}
+
+/* board 왼쪽 사이드 네비 글자 조정 */
+.snb>ul {
+  font-size: 1.4em;
+}
+
+/* board 길이 조절 */
+.boardlist {
+  width: 100%;
+}
+
+.board_writebutton {
+  position: relative;
+  margin-top: 18px;
+  left: 808px;
+}
+
+table.board_write {
+  position: relative;
+  right: 20px;
+}
+
+table {
+  margin-bottom: 10px;
+}

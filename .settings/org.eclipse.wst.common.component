@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ROOT">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="dsn.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/dsn/dsn">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-8.0.19.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-8.0.19/mysql-connector-java-8.0.19">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.mail-api-1.4.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.mail-api-1.4.7/javax.mail-api-1.4.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/activation/activation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mail.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mail/mail">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gimap.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/gimap/gimap">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="smtp.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/smtp/smtp">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mailapi.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mailapi/mailapi">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="imap.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/imap/imap">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pop3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/pop3/pop3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="ROOT"/>
+        <property name="java-output-path" value="/ROOT/build/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,330 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* 플로팅 초기화 */
+.clear {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.topbox {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 150px;
+  box-sizing: border-box;
+}
+
+.topbox>.img-box {
+  width: 40%;
+  height: 500px;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+}
+/* 이미지 내부 크기 설정 */
+.topbox>.img-box>img {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.topbox>.img-box>.textbox {
+  text-transform: uppercase;
+}
+
+.topbox>.img-box>.text-box1 {
+  font-size: 50px;
+  color: transparent;
+  font-weight: 800;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline;
+  left: 20%;
+  bottom: 270px;
+  margin: 0 auto;
+}
+
+.topbox>.img-box>.text-box1>p:hover {
+  color: #26394E;
+  transition: 0.8s all;
+}
+
+.sub .boxwrap {
+  padding-top: 120px;
+  position: relative;
+  z-index: 2;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1;
+}
+
+/* 스크롤바 제거 */
+HTML {
+  width: 100%;
+  height: 100%;
+}
+
+BODY {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.content {
+  width: 70%;
+  height: 80%;
+  min-height: 500px;
+  margin: 0 auto;
+  padding: 80px 0 160px;
+  z-index: 2;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 좌측 미니 메뉴바 */
+.snb {
+  float: left;
+  width: 200px;
+  text-transform: uppercase;
+  margin-top: -1%;
+}
+
+.snb>ul {
+  display: block;
+}
+
+.snb>ul>li {
+  display: list-item;
+  list-style: none;
+}
+
+/* 색상변경 및 크기변환+이동효과 */
+.snb>ul>li:hover {
+  color: #FED057;
+  transform: scale(2) translateX(60px);
+  transition: 0.8s all;
+}
+
+.snb>ul>li>a {
+  font-size: 1.2em;
+}
+
+/* 메인컨텐츠 박스 플로팅 */
+.mainbox {
+  /* float: left; */
+  width: 100%;
+  max-height: 100%;
+  /* height: 100%; */
+  overflow: visible; /* 위에서 히든값 주었기 때문에 다시 적용 */
+}
+
+.brand .sec1 {
+  position: relative;
+  /* margin-bottom: 40px; */
+  float: left;
+  margin-top: 10%;
+}
+
+/* p {
+	display: block;
+} */
+
+/* 이미지크기 박스 조절 */
+.wrap>.snip {
+  width: 22.2222%;
+  height: 198px;
+  margin: 5px;
+  /* display: block; */
+  align-content: center;
+  max-width: 100%;
+  max-height: 500px;
+  overflow: visible;
+  box-sizing: border-box;
+}
+
+.wrap>.snip1 {
+  width: 22.2222%;
+  height: 198px;
+  margin: 5.5px;
+  /* display: block; */
+  align-content: center;
+  /* max-width: 100%;
+	max-height: 500px; */
+  overflow: visible;
+  box-sizing: border-box;
+}
+
+.wrap>.snip2 {
+  width: 22.2222%;
+  height: 198px;
+  margin: 5px;
+  /* display: block; */
+  align-content: center;
+  max-width: 100%;
+  max-height: 500px;
+  overflow: visible;
+  box-sizing: border-box;
+}
+
+.wrap>.snip3 {
+  width: 22.2222%;
+  height: 198px;
+  margin: 5px;
+  /* display: block; */
+  align-content: center;
+  max-width: 100%;
+  max-height: 500px;
+  overflow: visible;
+  box-sizing: border-box;
+}
+
+.brand .sec h3, .brand .board_sec1 h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FED057;
+  margin-bottom: 30px;
+  position: relative;
+  text-transform: unset;
+}
+/* 끝나고 밑줄처리 */
+.brand .sec:before, .brand .board_sec1:before {
+  content: '';
+  display: block;
+  position: relative;
+  left: 220px;
+  top: 1.1rem;
+  width: 100%;
+  border-top: 1px solid #d7d7d7;
+}
+
+/* 이미지 크기 일괄 조절 */
+.snip .snip1 .sec-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.brand .sec1 h3, .brand .board_sec1 h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FED057;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.brand .sec3:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 250px;
+  top: 1.1rem;
+  width: 100%;
+  border-top: 1px solid #d7d7d7;
+}
+
+.btn {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  border: none;
+  padding: 8px;
+  font-size: 100px;
+  background: top;
+  color: white;
+  font-family: cursive;
+  box-sizing: border-box;
+  margin-right: 100%;
+  margin: 0 auto;
+  border: 0;
+  outline: none;
+  width: 100%;
+  height: 100%;
+}
+
+.btn1 {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  border: none;
+  padding: 8px;
+  font-size: 100px;
+  background: top;
+  color: white;
+  font-family: cursive;
+  box-sizing: border-box;
+  margin-right: 100%;
+  margin: 0 auto;
+  border: 0;
+  outline: none;
+}
+
+.btn2 {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  font-size: 100px;
+  background: top;
+  color: white;
+  font-family: cursive;
+  box-sizing: border-box;
+  margin-right: 100%;
+  margin: 0 auto;
+  border: 0;
+  outline: none;
+}
+
+.container1 {
+  margin: 2%;
+  margin-left: 40%;
+  height: 80%;
+  width: 200px;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.container1 :hover {
+  color: #FED057;
+}
+
+.container2 {
+  margin: 2%;
+  margin-left: 46%;
+  height: 80%;
+  width: 200px;
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+.container2 :hover {
+  color: #FED057;
+}
+
+.container3 {
+  margin: 2%;
+  margin-left: 47%;
+  height: 80%;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.container3 :hover {
+  color: #FED057;
+}
