@@ -1,0 +1,136 @@
+
+@media screen and (max-width: 480px) {
+	 /* header */
+  header .container {
+    margin-left: 0;
+    width: 480px;
+  }
+  header .container #home {
+    margin-left: 5px;
+  }
+  header .container .box {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    width: 300px;
+  }
+  header .container .box ul {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 0;
+    width: 250px;
+  }
+  header .container .box ul li {
+    /* font-size: 16px; */
+    margin-left: 10px;
+  }
+  header .container .box ul li a {
+    font-size: 0.8em;
+  }
+  header .container #menu {
+    margin: 20px 10px;
+  }
+
+
+  /* logout */
+  .logout button {
+    background: #FED057;
+    border: 1px solid #FED057;
+    color: #FFF;
+    font-family: 'Khand';
+    font-size: 20px;
+    font-weight: bold;
+    height: 4.5%;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    cursor: pointer;
+  }
+  .logout button:hover {
+    background-color: #fff;
+    color: #FED057;
+  }
+
+  /* ----------------------------------------------------- */
+  /* 메인 박스 위치 및 크기 수정 */
+  .content {
+    width: 90%;
+    /* left: 8%; */
+  }
+  
+  /* 사이드 네비 위치 수정 */
+  .snb {
+    margin-left: 13%;
+    padding-top: 25%;
+    padding-right: 14%;
+    height: 50%;
+  }
+  .snb > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30px;
+  }
+  .snb>ul>li>a {
+    font-size: 24px;
+  }
+
+  /* 하단 3단 상자 삭제 */
+  .sec3 {
+    display: none;
+  }
+  /* 하단 3단 사진 상자 */
+  .img-pack_list {
+    display: flex;
+  }
+    /* 3단 사진 크기 조정 */
+  .sec3 .img-pack_list .effect7 .img {
+    width: 40%;
+    height: 40%;
+  }
+  /* 3단 사진 글자 삭제 */
+  .sec3 .img-pack_list .effect7 > figcaption {
+    display: none;
+  }
+
+  /* 푸터 위치 수정 */
+  .footer_original {
+    width: 100%;
+    height: 175px;
+    position: relative;
+    margin-top: -100%;
+  }
+  /* 푸터 상단 추가 여백 삭제 */
+  .footer {
+    top: 0;
+  }
+  .footer_original .footer .footer-logo {
+    display: none;
+  }
+  /* 푸터 저작권,제작자 글자 위치, 크기조정 */
+  .footer_original .footer .copyright-bar {
+    display: flex;
+    font-size: 10px;
+    align-items: baseline;
+    padding-top: 9%;
+  }
+  /* 푸터 저작권 글자 수정 */
+  .footer_original .footer .copyright-bar1 {
+    letter-spacing: 3px;
+  }
+  /* 푸터 제작자 글자 수정 */
+  .copyright-bar2 {
+    letter-spacing: 1px;
+    width: 200%;
+  }
+  /* 각 푸터 제작자 부분별 조정 */
+  a.footer-a {
+    /* margin: 2px; */
+  }
+  /* -------------------------------------- */
+}

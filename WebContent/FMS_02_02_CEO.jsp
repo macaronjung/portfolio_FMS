@@ -15,6 +15,7 @@
 <link rel="stylesheet" type="text/css" href="JDH/css/detailbox.css" />
 <link rel="stylesheet" type="text/css" href="JDH/css/board.css" />
 <link rel="stylesheet" type="text/css" href="JDH/css/footer.css" />
+<link rel="stylesheet" type="text/css" href="JDH/css/media_FMS.css" />
 
 <script
   src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -197,35 +198,33 @@
 
   </section>
 
-  <footer>
+  <footer class="footer_original">
     <div class="footer">
       <div class="copyright">
         <div class="footer-logo">
-          <a href="NewFile.jsp" class="footer-a"> <img
-            class="footer-img" src="img/logo2.png" alt="FMS Logo">
+          <a href="" class="footer-a"> <img class="footer-img"
+            src="img/logo2.png" alt="FMS Logo">
           </a>
         </div>
         <!-- footer-logo end -->
-
         <div class="copyright-bar">
           <div class="copyright-bar1">©2020 FMS. ALL RIGHTS
             RESERVED</div>
           <!-- copyright-bar2 end -->
           <div class="copyright-bar2">
-            <a href="" class="footer-a"> 제작자 : 정도현 이현승 양효빈 김경민 박시온 </a>
-            // <a href="" class="footer-a"> 제작일자 : 20.02.10 ~
-              20.04.10 </a> // <a href="" class="footer-a"> 대표 : 박기훈 </a> //
-            <a href="" class="footer-a"> 대표번호 : 010-6700-0829 </a>
+            <a href="" class="footer-a"> 제작자 : 정도현 이현승 양효빈 김경민
+              박시온 </a>  <a href="" class="footer-a"> &nbsp;제작일자 :
+              20.02.10 ~ 20.04.10 </a>  <a href="" class="footer-a">
+              &nbsp; 대표 : 박기훈 </a>  <a href="" class="footer-a"> &nbsp;대표번호 :
+              010-6700-0829 </a>
           </div>
           <!-- copyright-bar2 end -->
         </div>
         <!-- copyright-bar end -->
-
       </div>
       <!-- copyright end -->
     </div>
     <!-- footer end -->
-
   </footer>
 
   <%
@@ -387,35 +386,33 @@
 
   </section>
 
-  <footer>
+  <footer class="footer_original">
     <div class="footer">
       <div class="copyright">
         <div class="footer-logo">
-          <a href="NewFile.jsp" class="footer-a"> <img
-            class="footer-img" src="img/logo2.png" alt="FMS Logo">
+          <a href="" class="footer-a"> <img class="footer-img"
+            src="img/logo2.png" alt="FMS Logo">
           </a>
         </div>
         <!-- footer-logo end -->
-
         <div class="copyright-bar">
           <div class="copyright-bar1">©2020 FMS. ALL RIGHTS
             RESERVED</div>
           <!-- copyright-bar2 end -->
           <div class="copyright-bar2">
-            <a href="" class="footer-a"> 제작자 : 정도현 이현승 양효빈 김경민 박시온 </a>
-            // <a href="" class="footer-a"> 제작일자 : 20.02.10 ~
-              20.04.10 </a> // <a href="" class="footer-a"> 대표 : 박기훈 </a> //
-            <a href="" class="footer-a"> 대표번호 : 010-6700-0829 </a>
+            <a href="" class="footer-a"> 제작자 : 정도현 이현승 양효빈 김경민
+              박시온 </a>  <a href="" class="footer-a"> &nbsp;제작일자 :
+              20.02.10 ~ 20.04.10 </a>  <a href="" class="footer-a">
+              &nbsp; 대표 : 박기훈 </a>  <a href="" class="footer-a"> &nbsp;대표번호 :
+              010-6700-0829 </a>
           </div>
           <!-- copyright-bar2 end -->
         </div>
         <!-- copyright-bar end -->
-
       </div>
       <!-- copyright end -->
     </div>
     <!-- footer end -->
-
   </footer>
 
 
