@@ -22,6 +22,7 @@
 <link rel="stylesheet" href="css/side.css">
 <link rel="stylesheet" href="css/top.css">
 <link rel="stylesheet" href="css/footer.css" />
+<link rel="stylesheet" href="JDH/css/media.css" />
 <script
   src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
 <script

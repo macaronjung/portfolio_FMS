@@ -22,6 +22,7 @@
 <link rel="stylesheet" href="css/side.css">
 <link rel="stylesheet" href="css/top.css">
 <link rel="stylesheet" href="css/footer.css" />
+<link rel="stylesheet" href="JDH/css/media.css" />
 <script
   src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
 <script
@@ -309,9 +310,9 @@
               <!-- copyright-bar2 end -->
               <div class="copyright-bar2">
                 <a href="" class="footer-a"> 제작자 : 정도현 이현승 양효빈 김경민
-                  박시온 </a> // <a href="" class="footer-a"> 제작일자 :
-                  20.02.10 ~ 20.04.10 </a> // <a href="" class="footer-a">
-                  대표 : 박기훈 </a> // <a href="" class="footer-a"> 대표번호 :
+                  박시온 // </a>  <a href="" class="footer-a"> &nbsp;제작일자 :
+                  20.02.10 ~ 20.04.10 // </a>  <a href="" class="footer-a">
+                  &nbsp; 대표 : 박기훈 // </a>  <a href="" class="footer-a"> &nbsp;대표번호 :
                   010-6700-0829 </a>
               </div>
               <!-- copyright-bar2 end -->
