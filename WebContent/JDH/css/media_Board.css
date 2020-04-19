@@ -57,7 +57,51 @@
   }
 
   /* ----------------------------------------------------- */
+  /* 메인 박스 위치 및 크기 수정 */
+  .content {
+    width: 100%;
+    left: -7%;
+  }
   
+  /* 사이드 네비 위치 수정 */
+  .snb {
+    margin-left: 13%;
+    padding-top: 25%;
+    padding-right: 14%;
+    height: 50%;
+  }
+  .snb > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30px;
+  }
+  .snb>ul>li>a {
+    font-size: 24px;
+  }
+  
+  /* 게시판 제목 단락 수정 */
+  .mainbox .board_sec1 .board {
+  font-size: 16px;
+  }
+  /* 게시판 리스트 글자 크기 수정 */
+  .boardlist {
+  font-size: 14px;
+  }
+  /* 게시판 하단 버튼 크기 조절 */
+  .boardlist .board_button, .boardlist .pageCount .board_button {
+    height: 50%;
+  }
+  /* 게시판 리스트 숫자 크기 조절 */
+  .boardlist .pageCount a {
+  	font-size: 14px;
+    padding: 0;
+  }
+  
+  /* 푸터 위치 수정 */
+  .footer_original {
+    display: none;
+  }
   
   /* -------------------------------------- */
 }
