@@ -1,0 +1,63 @@
+
+@media screen and (max-width: 480px) {
+	 /* header */
+  header .container {
+    margin-left: 0;
+    width: 480px;
+  }
+  header .container #home {
+    margin-left: 5px;
+  }
+  header .container .box {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    width: 300px;
+  }
+  header .container .box ul {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 0;
+    width: 250px;
+  }
+  header .container .box ul li {
+    /* font-size: 16px; */
+    margin-left: 10px;
+  }
+  header .container .box ul li a {
+    font-size: 0.8em;
+  }
+  header .container #menu {
+    margin: 20px 10px;
+  }
+
+
+  /* logout */
+  .logout button {
+    background: #FED057;
+    border: 1px solid #FED057;
+    color: #FFF;
+    font-family: 'Khand';
+    font-size: 20px;
+    font-weight: bold;
+    height: 4.5%;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    cursor: pointer;
+  }
+  .logout button:hover {
+    background-color: #fff;
+    color: #FED057;
+  }
+
+  /* ----------------------------------------------------- */
+  
+  
+  /* -------------------------------------- */
+}
